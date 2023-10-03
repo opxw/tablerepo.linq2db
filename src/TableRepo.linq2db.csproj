@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>opxw</Authors>
+    <Company></Company>
+    <Product>TableRepo.linq2db</Product>
+    <Description>Simplify table access from linq2db</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastMember" Version="1.5.0" />
+    <PackageReference Include="linq2db" Version="5.2.2" />
+    <PackageReference Include="MySqlConnector" Version="2.2.7" />
+    <PackageReference Include="Npgsql" Version="7.0.6" />
+    <PackageReference Include="SAPHanaForNetCore" Version="3.1.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+</Project>
